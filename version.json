@@ -1,18 +1,28 @@
 {
-  "latest_version": "V1.0.5",
-  "release_date": "2026-08-25",
-  "download_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.5.zip",
+  "latest_version": "V1.0.0",
+  "release_date": "2026-08-26",
+  "download_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.0.zip",
   "changelog": {
     "features": [
-      "在线自动更新功能，检查到新版本自动下载安装",
-      "修复页面每隔几秒抖动的问题",
-      "更新时自动保留账号配置和登录状态"
+      "Multi-account management with independent friend lists",
+      "Web management panel with Apple-style glass UI",
+      "Scheduled sending (global + per-account schedules)",
+      "QR code login with session persistence",
+      "Friend list sync with streak days display",
+      "Real-time browser screen view",
+      "Remote login control from mobile",
+      "One-click online update from GitHub",
+      "Power save mode and screen blackout",
+      "cpolar remote access integration",
+      "iOS 26/27 wallpapers with device detection",
+      "PWA support and first-run tutorial"
     ],
     "bugfixes": [
-      "修复refreshAccounts每5秒重建DOM导致页面抖动",
-      "修复日志innerHTML+=导致的性能问题",
-      "验证登录速度从30秒优化到最快2秒",
-      "同步好友登录失效现在明确提示"
+      "Fixed page shaking from DOM rebuild every 5 seconds",
+      "Fixed login verification taking 30+ seconds (now ~2s)",
+      "Fixed sync friends not reporting login expiration",
+      "Fixed send message not reporting login expiration",
+      "Fixed log performance issues"
     ]
   }
 }
