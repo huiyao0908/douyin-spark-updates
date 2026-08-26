@@ -1,28 +1,16 @@
 {
-  "latest_version": "V1.0.0",
+  "latest_version": "V1.0.1",
   "release_date": "2026-08-26",
-  "download_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.0.zip",
+  "download_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.1.zip",
   "changelog": {
     "features": [
-      "Multi-account management with independent friend lists",
-      "Web management panel with Apple-style glass UI",
-      "Scheduled sending (global + per-account schedules)",
-      "QR code login with session persistence",
-      "Friend list sync with streak days display",
-      "Real-time browser screen view",
-      "Remote login control from mobile",
-      "One-click online update from GitHub",
-      "Power save mode and screen blackout",
-      "cpolar remote access integration",
-      "iOS 26/27 wallpapers with device detection",
-      "PWA support and first-run tutorial"
+      "Monitor control (screen on/off) enabled by default",
+      "Fixed monitor off using SendMessageTimeout for reliable display power-off"
     ],
     "bugfixes": [
-      "Fixed page shaking from DOM rebuild every 5 seconds",
-      "Fixed login verification taking 30+ seconds (now ~2s)",
-      "Fixed sync friends not reporting login expiration",
-      "Fixed send message not reporting login expiration",
-      "Fixed log performance issues"
+      "Fixed UIntPtr conversion error in monitor_off.ps1 that prevented screen from turning off",
+      "Removed confirm dialog from monitor off button for faster response",
+      "Monitor API now checks config and returns 403 when disabled"
     ]
   }
 }
