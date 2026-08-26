@@ -1,16 +1,44 @@
-{
-  "latest_version": "V1.0.1",
-  "release_date": "2026-08-26",
-  "download_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.1.zip",
-  "changelog": {
-    "features": [
-      "Monitor control (screen on/off) enabled by default",
-      "Fixed monitor off using SendMessageTimeout for reliable display power-off"
-    ],
-    "bugfixes": [
-      "Fixed UIntPtr conversion error in monitor_off.ps1 that prevented screen from turning off",
-      "Removed confirm dialog from monitor off button for faster response",
-      "Monitor API now checks config and returns 403 when disabled"
-    ]
-  }
+﻿{
+    "download_url":  "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.2.zip",
+    "changelog":  {
+                      "V1.0.0":  {
+                                     "bugfixes":  [
+
+                                                  ],
+                                     "features":  [
+                                                      "正式版发布",
+                                                      "支持多账号管理和定时自动续火花",
+                                                      "Web管理面板，毛玻璃风格界面",
+                                                      "扫码登录、好友同步、火花天数显示",
+                                                      "实时画面监控和远程登录控制",
+                                                      "外网远程访问(cpolar)和省电模式",
+                                                      "GitHub在线自动更新"
+                                                  ]
+                                 },
+                      "V1.0.1":  {
+                                     "bugfixes":  [
+                                                      "修复monitor_off.ps1中UIntPtr类型转换错误导致黑屏不生效",
+                                                      "移除黑屏按钮确认弹窗，响应更快"
+                                                  ],
+                                     "features":  [
+                                                      "黑屏/亮屏功能默认开启",
+                                                      "使用SendMessageTimeout实现真正的显示器电源关闭"
+                                                  ]
+                                 },
+                      "V1.0.2":  {
+                                     "bugfixes":  [
+                                                      "修复更新检查CDN缓存导致检测不到新版本的问题",
+                                                      "优化更新流程，下载与安装分离更稳定"
+                                                  ],
+                                     "features":  [
+                                                      "更新下载支持实时进度条、网速显示和预估剩余时间",
+                                                      "下载过程中可随时取消或转为后台下载",
+                                                      "下载完成后弹窗确认再安装，避免误操作",
+                                                      "控制面板新增中英文语言切换功能",
+                                                      "更新日志改为中文显示"
+                                                  ]
+                                 }
+                  },
+    "release_date":  "2026-08-26",
+    "latest_version":  "V1.0.2"
 }
