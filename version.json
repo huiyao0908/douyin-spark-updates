@@ -1,44 +1,23 @@
-﻿{
-    "download_url":  "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.2.zip",
+{
+    "download_url":  "https://github.com/huiyao0908/douyin-spark-updates/releases/download/v1.0.1/douyin-spark-v1.0.1.zip",
     "changelog":  {
-                      "V1.0.0":  {
-                                     "bugfixes":  [
-
-                                                  ],
-                                     "features":  [
-                                                      "正式版发布",
-                                                      "支持多账号管理和定时自动续火花",
-                                                      "Web管理面板，毛玻璃风格界面",
-                                                      "扫码登录、好友同步、火花天数显示",
-                                                      "实时画面监控和远程登录控制",
-                                                      "外网远程访问(cpolar)和省电模式",
-                                                      "GitHub在线自动更新"
-                                                  ]
-                                 },
-                      "V1.0.1":  {
-                                     "bugfixes":  [
-                                                      "修复monitor_off.ps1中UIntPtr类型转换错误导致黑屏不生效",
-                                                      "移除黑屏按钮确认弹窗，响应更快"
-                                                  ],
-                                     "features":  [
-                                                      "黑屏/亮屏功能默认开启",
-                                                      "使用SendMessageTimeout实现真正的显示器电源关闭"
-                                                  ]
-                                 },
-                      "V1.0.2":  {
-                                     "bugfixes":  [
-                                                      "修复更新检查CDN缓存导致检测不到新版本的问题",
-                                                      "优化更新流程，下载与安装分离更稳定"
-                                                  ],
-                                     "features":  [
-                                                      "更新下载支持实时进度条、网速显示和预估剩余时间",
-                                                      "下载过程中可随时取消或转为后台下载",
-                                                      "下载完成后弹窗确认再安装，避免误操作",
-                                                      "控制面板新增中英文语言切换功能",
-                                                      "更新日志改为中文显示"
-                                                  ]
-                                 }
+                      "bugfixes":  [
+                                       "修复更多工具面板展开后翻译问题",
+                                       "修复检查更新弹窗更新日志显示",
+                                       "修复登录验证稳定性"
+                                   ],
+                      "features":  [
+                                       "新增中英文语言切换",
+                                       "新增浏览器实时画面",
+                                       "新增远程访问（内网穿透）",
+                                       "新增自定义背景壁纸（iOS 26/27）",
+                                       "新增教程引导",
+                                       "新增浏览器常驻模式",
+                                       "新增各账号独立定时",
+                                       "新增火花天数刷新",
+                                       "新增黑屏亮屏控制"
+                                   ]
                   },
     "release_date":  "2026-08-26",
-    "latest_version":  "V1.0.2"
+    "latest_version":  "V1.0.1"
 }
