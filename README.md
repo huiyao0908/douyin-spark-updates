@@ -2,7 +2,7 @@
 
 Automatically send daily messages to maintain your Douyin (TikTok China) chat streaks (火花). Supports multiple accounts, web management panel, scheduled sending, and one-click updates.
 
-![Version](https://img.shields.io/badge/version-V1.0.0-blue)
+![Version](https://img.shields.io/badge/version-V1.0.2-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-green)
 ![Python](https://img.shields.io/badge/python-3.8+-yellow)
 
