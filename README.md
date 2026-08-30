@@ -2,7 +2,7 @@
 
 Automatically send daily messages to maintain your Douyin (TikTok China) chat streaks (火花). Supports multiple accounts, web management panel, scheduled sending, and one-click updates.
 
-![Version](https://img.shields.io/badge/version-V1.0.2-blue)
+![Version](https://img.shields.io/badge/version-V1.0.3-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-Windows-green)
 ![Python](https://img.shields.io/badge/python-3.8+-yellow)
 
@@ -285,6 +285,35 @@ When an update is applied:
 ---
 
 ## 📝 Changelog
+
+### V1.0.3 (2026-08-31)
+Features:
+- Smarter send verification: a message counts as sent only after it is actually delivered (input box cleared)
+- Account anomaly detection: auto-stop an account on expired login / security verification (slider/captcha) / rate-limit, and return the exact reason
+- One-click start now mutes system volume automatically (adjustable anytime)
+
+Bugfixes:
+- Fixed scheduled messages being skipped when the system lagged 1-2 seconds (grace window widened, missed runs coalesced)
+- Fixed false "sent successfully" when sending failed or verification was required
+- Fixed remaining friends still being sent after an account hit a verification wall
+- Pre-send check: text must be in the input box, otherwise it is reported as failure
+
+### V1.0.2 (2026-08-28)
+Features:
+- One-click Chinese/English language switch
+- Official iOS 26/27 wallpapers and custom background
+- Real-time browser screen view and remote login control
+- Low performance mode for older PCs / slow networks
+- Per-account independent scheduled sending
+- WAN remote access support
+
+Bugfixes:
+- Fixed action buttons being clipped on mobile
+- Fixed missing title bar on some devices
+- Run log now auto-scrolls to latest
+- Completed English translations
+- Special characters in nicknames no longer render as boxes
+- Fixed several unresponsive buttons
 
 ### V1.0.0 (2026-08-26)
 **Initial Public Release**
