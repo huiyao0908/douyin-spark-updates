@@ -1,7 +1,9 @@
 {
   "latest_version": "V1.0.3",
   "release_date": "2026-09-21",
-  "download_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.3.zip",
+  "download_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.3-windows.zip",
+  "windows_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.3-windows.zip",
+  "linux_url": "https://raw.githubusercontent.com/huiyao0908/douyin-spark-updates/main/douyin-spark-v1.0.3-linux.zip",
   "changelog": {
     "V1.0.3": {
       "features": [],
@@ -12,7 +14,9 @@
         "发送消息后检查聊天记录确认是否真的发出",
         "发送未确认时自动重发一次",
         "修复输入框未清空误报发送失败",
-        "修复前端右侧空白布局问题"
+        "修复前端右侧空白布局问题",
+        "检查更新加jsDelivr CDN备用源",
+        "支持Windows/Linux双平台更新包"
       ]
     },
     "V1.0.2": {
